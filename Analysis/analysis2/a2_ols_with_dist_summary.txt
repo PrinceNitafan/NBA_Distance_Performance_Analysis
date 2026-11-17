@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             OFF_RATING   R-squared:                       0.087
+Model:                            OLS   Adj. R-squared:                  0.087
+Method:                 Least Squares   F-statistic:                     231.9
+Date:                Thu, 06 Aug 2026   Prob (F-statistic):          3.20e-237
+Time:                        21:38:03   Log-Likelihood:                -46508.
+No. Observations:               12142   AIC:                         9.303e+04
+Df Residuals:                   12136   BIC:                         9.307e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                    112.6874      0.182    617.543      0.000     112.330     113.045
+distance                  -0.1884      0.108     -1.749      0.080      -0.399       0.023
+is_home                    1.8854      0.214      8.801      0.000       1.466       2.305
+rest_days                  0.1338      0.104      1.289      0.198      -0.070       0.337
+team_last10_off_rating     2.3570      0.103     22.942      0.000       2.156       2.558
+opp_last10_def_rating      1.9358      0.103     18.842      0.000       1.734       2.137
+==============================================================================
+Omnibus:                        0.759   Durbin-Watson:                   1.996
+Prob(Omnibus):                  0.684   Jarque-Bera (JB):                0.727
+Skew:                           0.002   Prob(JB):                        0.695
+Kurtosis:                       3.038   Cond. No.                         4.38
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

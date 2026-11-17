@@ -1,0 +1,17 @@
+name: nba_distance_analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - numpy=2.4.6
+  - pandas=3.0.3
+  - scipy=1.17.1
+  - scikit-learn=1.9.0
+  - statsmodels=0.14.6
+  - matplotlib=3.10.9
+  - seaborn=0.13.2
+  - pip=26.1.1
+  - pip:
+      - nba-api==1.11.4
+      - requests==2.34.2
